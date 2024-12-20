@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-modeling') {
+orgs.newOrg('modeling', 'eclipse-modeling') {
   settings+: {
     description: "",
     name: "Eclipse Modeling Project",
